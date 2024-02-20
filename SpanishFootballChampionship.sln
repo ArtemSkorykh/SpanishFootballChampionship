@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanishFootballChampionship", "SpanishFootballChampionship\SpanishFootballChampionship.csproj", "{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanishFootballChampionship.DAL", "SpanishFootballChampionship.DAL\SpanishFootballChampionship.DAL.csproj", "{1A728E84-0A28-483D-8244-FFC7169AB474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A728E84-0A28-483D-8244-FFC7169AB474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A728E84-0A28-483D-8244-FFC7169AB474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A728E84-0A28-483D-8244-FFC7169AB474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A728E84-0A28-483D-8244-FFC7169AB474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
