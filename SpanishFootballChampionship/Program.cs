@@ -1,4 +1,7 @@
-﻿namespace SpanishFootballChampionship
+﻿using SpanishFootballChampionship.Models;
+using SpanishFootballChampionship.DAL;
+
+namespace SpanishFootballChampionship
 {
     internal class Program
     {
