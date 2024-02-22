@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SpanishFootballChampionship.Context\SpanishFootballChampionship.DAL.csproj" />
     <ProjectReference Include="..\SpanishFootballChampionship.DAL\SpanishFootballChampionship.Models.csproj" />
   </ItemGroup>
 
