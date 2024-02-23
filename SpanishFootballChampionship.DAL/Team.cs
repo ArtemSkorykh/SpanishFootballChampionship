@@ -20,6 +20,10 @@
 
         public int GoalsAgainst { get; set; }
 
+        public List<Player> Players { get; set; }
+        public List<Match> Matches1 { get; set; }
+        public List<Match> Matches2 { get; set; }
+
         public void Print(Team team)
         {
             Console.WriteLine($"Team: {team.Name} | City: {team.City} | Wins: {team.Wins} | Losses: {team.Losses} | Draws: {team.Draws} | GoalsFor: {team.GoalsFor} | GoalsAgainst: {team.GoalsAgainst}");
