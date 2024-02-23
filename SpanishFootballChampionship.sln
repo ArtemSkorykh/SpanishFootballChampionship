@@ -8,12 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanishFootballChampionship
 		{C49EDBAD-AE4F-4B06-80DF-88C1C072D895} = {C49EDBAD-AE4F-4B06-80DF-88C1C072D895}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanishFootballChampionship.Models", "SpanishFootballChampionship.DAL\SpanishFootballChampionship.Models.csproj", "{1A728E84-0A28-483D-8244-FFC7169AB474}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanishFootballChampionship.DAL", "SpanishFootballChampionship.Context\SpanishFootballChampionship.DAL.csproj", "{C49EDBAD-AE4F-4B06-80DF-88C1C072D895}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1A728E84-0A28-483D-8244-FFC7169AB474} = {1A728E84-0A28-483D-8244-FFC7169AB474}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +20,6 @@ Global
 		{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC153CA-F5C2-4B3E-9E87-4935B0B92C37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A728E84-0A28-483D-8244-FFC7169AB474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A728E84-0A28-483D-8244-FFC7169AB474}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A728E84-0A28-483D-8244-FFC7169AB474}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A728E84-0A28-483D-8244-FFC7169AB474}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C49EDBAD-AE4F-4B06-80DF-88C1C072D895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C49EDBAD-AE4F-4B06-80DF-88C1C072D895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49EDBAD-AE4F-4B06-80DF-88C1C072D895}.Release|Any CPU.ActiveCfg = Release|Any CPU

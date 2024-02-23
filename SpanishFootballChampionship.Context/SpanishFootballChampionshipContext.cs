@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SpanishFootballChampionship.Models;
 
 namespace SpanishFootballChampionship.DAL
 {
@@ -160,7 +159,7 @@ namespace SpanishFootballChampionship.DAL
 
         public void UpdateMatch(Match updatedMatch)
         {
-            var existingMatch = Matches.FirstOrDefault(m => m.Id == updatedMatch.hId);
+            var existingMatch = Matches.FirstOrDefault(m => m.Id == updatedMatch.Id);
             if (existingMatch != null)
             {
                 existingMatch.Team1Id = updatedMatch.Team1Id;
@@ -187,6 +186,9 @@ namespace SpanishFootballChampionship.DAL
                 Console.WriteLine("Match not found.");
             }
         }
+
+        //Модуль 6. Частина 4
+
 
 
 

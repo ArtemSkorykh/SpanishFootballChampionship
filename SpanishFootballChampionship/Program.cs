@@ -1,5 +1,4 @@
-﻿using SpanishFootballChampionship.Models;
-using SpanishFootballChampionship.DAL;
+﻿using SpanishFootballChampionship.DAL;
 
 namespace FootballLeague.TestApp
 {
